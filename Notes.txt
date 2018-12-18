@@ -1,0 +1,20 @@
+ public int ID { get; set; }
+        public string contactName { get; set; }
+        public string contactPhone { get; set; }
+        public string contactEmail { get; set; }
+        public DateTime contactBestDatetoCall { get; set; }
+        public DateTime contactBestTimetoCall { get; set; }
+        public string contactApprovalCode { get; set; }
+        public string contactMessage { get; set; }
+
+
+Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\nithu\source\WebSites\alc-MVC\ALC-MVC\ALC-MVC\App_Data\Database1.mdf;Integrated Security=True
+
+
+ public string contactName contactPhone contactEmail contactBestDatetoCall  contactBestTimetoCall contactApprovalCode contactMessage { get; set; }
+
+
+This Projecct has the home page of the website and the form works perfectly. 
+The UI part needs to be fixed.
+Need to create the other pages and link them.
+Have to create the partial views of the header and the footer.
